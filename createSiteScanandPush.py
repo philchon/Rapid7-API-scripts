@@ -16,10 +16,12 @@ headers = {'Content-Type' : 'application/json'}
 ###### Building the post data
 siteName = input("What is the scan site name? : ")
 targetsIPAddress = input("What are the IP addresses you would like to scan? : ")
+#Use getScanTemplateandIDs.py to obtain the scan engine IDs  
 scanTemplateID = input("What is the scan template you would like to
 use? (Use scan template ID!) : ")
+#Use getScanEngineandEngineID.py to obtain the scan engine IDs                         
 scanEngineID = input("Which scan engine you would like to use? (Use
-scan engine ID!) : ")
+scan engine ID!) : ")                     
 scanDescription = input("What is the description of this scan site? : ")
 scanImportance = input("What is the importance of this site? (Valid
 values are very_low, low, normal, high, and very_high) : ")
